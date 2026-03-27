@@ -20,7 +20,7 @@ async function checkWeather(cityName){
         errorCity.style.display = "none"
     }
     let data = await response.json();
-    console.log(data);
+    //console.log(data);
 
 
     temp.textContent = Math.round(data.main.temp) + "°C";
